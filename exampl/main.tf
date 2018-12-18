@@ -8,7 +8,7 @@ provider "aws" {
 data "aws_ami" "ubuntu" {
   most_recent = true
 
-  filter {
+  filter{ 
     name   = "name"
     values = ["ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-*"]
   }
@@ -35,3 +35,8 @@ resource "aws_security_group_rule" "allow_all" {
 output "server_public_ip"{
     value = "${aws_instance.grunt.public_ip"
 }
+
+
+ vchsvfj
+ nxvc
+ 
